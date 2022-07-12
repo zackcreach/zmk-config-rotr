@@ -35,6 +35,7 @@
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
+			label = "shift";
 			bindings = <&bt BT_CLR &trans &rgb_ug RGB_TOG>;
 			sensor-bindings = <&def_lshft>;
 		};
